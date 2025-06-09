@@ -1,0 +1,43 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body with black background and code font */
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Fira Code', monospace;
+  line-height: 1.1;
+  font-size: 16px;
+}
+
+/* Center main content and fix width */
+main {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+/* Principles title */
+.principles-title {
+  margin-bottom: 0.3em;       /* Less space below the title */
+  font-weight: 600;
+  font-size: 2em;
+}
+
+/* Container that indents principles */
+.principles-list {
+  padding-left: 2em;          /* Indent all principles */
+  margin-top: 0;
+}
+
+/* Each principle paragraph */
+.principles-list p {
+  margin: 0.1em 0;            /* Very tight vertical spacing */
+  line-height: 1.1;           /* Tight line height */
+  font-size: 1.2em;
+  color: white;
+}
